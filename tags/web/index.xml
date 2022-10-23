@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dylan DEGAIL</title>
-    <link>https://dylan-degail.me/</link>
-    <description>Recent content on Dylan DEGAIL</description>
+    <title>web on Dylan DEGAIL</title>
+    <link>https://dylan-degail.me/tags/web/</link>
+    <description>Recent content in web on Dylan DEGAIL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Oct 2022 00:08:32 +0200</lastBuildDate><atom:link href="https://dylan-degail.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Oct 2022 00:08:32 +0200</lastBuildDate><atom:link href="https://dylan-degail.me/tags/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tools and ressources to begin CTF / challenges</title>
       <link>https://dylan-degail.me/posts/pentest-begin-x00/</link>
@@ -16,16 +16,6 @@
       <description>Post wrote by Dylan DEGAIL and Nathan MAILLET
 Tools Reverse Outil pour reverser des binaires :
 GDB + gdb-peda : GNU deboggueur pour lancer un programme étape par étape. dgb-peta améliore DGB pour montrer les valeurs des adresses pointeurs dans la pile d&amp;rsquo;exécution et des registres. Ghidra : analyse statique de binaires. Exploit Metasploit : outil complet utile notamment pour la génération automatique de shellcodes. pwntools : boîte à outil pour l&amp;rsquo;écriture d&amp;rsquo;exploits en python.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://dylan-degail.me/shs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://dylan-degail.me/shs/</guid>
-      <description> &lt;!DOCTYPE html&gt; Password Protected Page This page is password protected. Password
-Sorry, please try again. Sorry, something went wrong. Success! &amp;nbsp; Submit Sorry, but password protection only works over a secure connection. Please load this page via HTTPS. Your web browser appears to be outdated. Please visit this page using a modern browser. Protected by PageCrypt </description>
     </item>
     
   </channel>

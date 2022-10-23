@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-	<meta name="generator" content="Hugo 0.102.1" />
+	<meta name="generator" content="Hugo 0.103.0" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -19,18 +19,18 @@
 
     
     <title>Dylan DEGAIL</title>
-    <meta name="description" content="Computer Science M.Sc Student at ENSEEIHT">
+    <meta name="description" content="Computer Science M.Eng Student at ENSEEIHT">
     <meta name="keywords" content='blog, gokarna, hugo'>
 
     <meta property="og:url" content="https://dylan-degail.me/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Dylan DEGAIL">
-    <meta property="og:description" content="Computer Science M.Sc Student at ENSEEIHT">
+    <meta property="og:description" content="Computer Science M.Eng Student at ENSEEIHT">
     <meta property="og:image" content="/images/CyberPunkJap/helloclonion.PNG">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Dylan DEGAIL">
-    <meta name="twitter:description" content="Computer Science M.Sc Student at ENSEEIHT">
+    <meta name="twitter:description" content="Computer Science M.Eng Student at ENSEEIHT">
     <meta property="twitter:domain" content="https://dylan-degail.me/">
     <meta property="twitter:url" content="https://dylan-degail.me/">
     <meta name="twitter:image" content="/images/CyberPunkJap/helloclonion.PNG">
@@ -48,25 +48,25 @@
 
     
     
-        <!-- KaTeX -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC" crossorigin="anonymous">
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js" integrity="sha384-X/XCfMm41VSsqRNQgDerQczD69XqmjOOOwYQvr/uuC+j4OPoNhVgjdGFwhvN02Ja" crossorigin="anonymous"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-        renderMathInElement(document.body, {
-          // customised options
-          // • auto-render specific keys, e.g.:
-          delimiters: [
-            {left: '$$', right: '$$', display: true},
-            {left: '$', right: '$', display: false},
-          ],
-          // • rendering keys, e.g.:
-          throwOnError : false
+            <!-- KaTeX -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js" integrity="sha384-X/XCfMm41VSsqRNQgDerQczD69XqmjOOOwYQvr/uuC+j4OPoNhVgjdGFwhvN02Ja" crossorigin="anonymous"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+            // customised options
+            // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+            });
         });
-      });
-    </script>
-  
+        </script>
+    
     
 </head>
 <body>
@@ -91,11 +91,23 @@
         <div class="nav-links">
             
             <div class="nav-link">
-                <a href="https://dylan-degail.me/posts/"> Posts </a>
+                <a href="https://dylan-degail.me/"><span data-feather='home'></span> Home </a>
             </div>
             
             <div class="nav-link">
-                <a href="https://dylan-degail.me/tags/"> Tags </a>
+                <a href="https://dylan-degail.me/posts/"><span data-feather='book'></span> Posts </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://dylan-degail.me/projects/"><span data-feather='code'></span> Projects </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://dylan-degail.me/tags/"><span data-feather='tag'></span> Tags </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://dylan-degail.me/shs/"> SHS redirect </a>
             </div>
             
             <div class="nav-link">
@@ -104,6 +116,10 @@
             
             <div class="nav-link">
                 <a href="https://www.buymeacoffee.com/fzfstormz"><span data-feather='coffee'></span>  </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://dylan-degail.me/index.xml"><span data-feather='rss'></span>  </a>
             </div>
             
 
@@ -116,6 +132,7 @@
             </div>
 
             <div class="nav-link" id="hamburger-menu-toggle">
+                <span id="hamburger-menu-toggle-screen-reader-target" class="sr-only">menu</span>
                 <a>
                     <span data-feather="menu"></span>
                 </a>
@@ -125,11 +142,23 @@
             <ul class="nav-hamburger-list visibility-hidden">
                 
                 <li class="nav-item">
-                    <a href="https://dylan-degail.me/posts/"> Posts </a>
+                    <a href="https://dylan-degail.me/"><span data-feather='home'></span> Home </a>
                 </li>
                 
                 <li class="nav-item">
-                    <a href="https://dylan-degail.me/tags/"> Tags </a>
+                    <a href="https://dylan-degail.me/posts/"><span data-feather='book'></span> Posts </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://dylan-degail.me/projects/"><span data-feather='code'></span> Projects </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://dylan-degail.me/tags/"><span data-feather='tag'></span> Tags </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://dylan-degail.me/shs/"> SHS redirect </a>
                 </li>
                 
                 <li class="nav-item">
@@ -138,6 +167,10 @@
                 
                 <li class="nav-item">
                     <a href="https://www.buymeacoffee.com/fzfstormz"><span data-feather='coffee'></span>  </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://dylan-degail.me/index.xml"><span data-feather='rss'></span>  </a>
                 </li>
                 
                 <li class="nav-item dark-theme-toggle">
@@ -159,7 +192,7 @@
         
 	</div>
     <h1>Dylan DEGAIL</h1>
-    <h3>Computer Science M.Sc Student at ENSEEIHT</h3>
+    <h3>Computer Science M.Eng Student at ENSEEIHT</h3>
 </section>
 
 <div class="flex-break"></div>
