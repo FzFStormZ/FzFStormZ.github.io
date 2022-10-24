@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  background-color: rgb(34, 39, 45);
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.3/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.7.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.14.3"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.3/dist/index.umd.min.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root, jsonOptions) => {
+        const markmap = getMarkmap();
+        window.mm = markmap.Markmap.create('svg#mindmap', (getOptions || markmap.deriveOptions)(jsonOptions), root);
+      })(() => window.markmap,null,{"type":"heading","depth":0,"payload":{"lines":[1,2]},"content":"Mon projet personnel et professionnel","children":[{"type":"heading","depth":1,"payload":{"lines":[3,4]},"content":"Mon études","children":[{"type":"heading","depth":2,"payload":{"lines":[5,6]},"content":"BAC S-SVT spé math (2016 - 2019)"},{"type":"heading","depth":2,"payload":{"lines":[6,7]},"content":"DUT Informatique (2019 - 2021)"},{"type":"heading","depth":2,"payload":{"lines":[7,8]},"content":"ENSEEIHT - Sciences du numérique (2021 - ?)"}]},{"type":"heading","depth":1,"payload":{"lines":[10,11]},"content":"Mes expériences professionnelles","children":[{"type":"heading","depth":2,"payload":{"lines":[12,13]},"content":"Stage analyste sécurité - Université de Bristol (2021)"},{"type":"heading","depth":2,"payload":{"lines":[13,14]},"content":"Stage consultant cybersécurité - TEHTRIS (2022)"}]},{"type":"heading","depth":1,"payload":{"lines":[16,17]},"content":"Mes futurs objectifs","children":[{"type":"heading","depth":2,"payload":{"lines":[18,19]},"content":"Travail","children":[{"type":"heading","depth":3,"payload":{"lines":[20,21]},"content":"Pentester / Cybersecurity Engineer"},{"type":"heading","depth":3,"payload":{"lines":[21,22]},"content":"Software (Developer) Engineer"},{"type":"heading","depth":3,"payload":{"lines":[22,23]},"content":"Mix of them ??"}]},{"type":"heading","depth":2,"payload":{"lines":[25,26]},"content":"International","children":[{"type":"heading","depth":3,"payload":{"lines":[27,28]},"content":"Experience au Japon"},{"type":"heading","depth":3,"payload":{"lines":[28,29]},"content":"Echange universitaire dans un pays anglophone"}]},{"type":"heading","depth":2,"payload":{"lines":[31,32]},"content":"Césure ?","children":[{"type":"heading","depth":3,"payload":{"lines":[32,33]},"content":"Stage de 6 mois au Japon (logiciel ou cyber)"},{"type":"heading","depth":3,"payload":{"lines":[33,34]},"content":"Stage de 6 mois en Amérique du Nord (logiciel ou cyber)"},{"type":"heading","depth":3,"payload":{"lines":[34,35]},"content":"Echange universitaire possible ??"}]},{"type":"heading","depth":2,"payload":{"lines":[36,37]},"content":"Dernière année (possibilités)","children":[{"type":"heading","depth":3,"payload":{"lines":[37,38]},"content":"TLS-SEC + contrat pro"},{"type":"heading","depth":3,"payload":{"lines":[38,39]},"content":"TLS-SEC + PFE chez un grand groupe"},{"type":"heading","depth":3,"payload":{"lines":[39,40]},"content":"Double-diplôme (Logiciel + cybersécurité)"},{"type":"heading","depth":3,"payload":{"lines":[40,41]},"content":"Echange (Logiciel + cybersécurité)"}]}]},{"type":"heading","depth":1,"payload":{"lines":[43,44]},"content":"Mes activités associatives","children":[{"type":"heading","depth":2,"payload":{"lines":[45,46]},"content":"Bénévole à la <a href=\"https://thcon.party/\">THC</a>"},{"type":"heading","depth":2,"payload":{"lines":[46,47]},"content":"Animateur chez <a href=\"https://wocsa.org\">WOCSA</a>"},{"type":"heading","depth":2,"payload":{"lines":[47,48]},"content":"Respo <a href=\"https://ctftime.org/team/20769\">pony7</a> chez net7"}]}]},{"colorFreezeLevel":2})</script>
+</body>
+</html>
