@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>unipd on Dylan DEGAIL</title>
+    <link>https://dylan-degail.me/tags/unipd/</link>
+    <description>Recent content in unipd on Dylan DEGAIL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 21 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dylan-degail.me/tags/unipd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI for health (goal n°3 of Sustainable Development Goal)</title>
+      <link>https://dylan-degail.me/posts/ai-health-research-unipd/</link>
+      <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dylan-degail.me/posts/ai-health-research-unipd/</guid>
+      <description>🛰️ Subject Use AI to help children with ASD in terms of socially and emotional abilities in society.
+📜 Papers references Socially assistive robots for teaching emotional abilities to children with autism spectrum disorder
+Improving social skills in children with ASD using a long-term, in-home social robot
+📝 Research 🚧 WIP</description>
+    </item>
+    
+  </channel>
+</rss>

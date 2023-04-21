@@ -6,13 +6,25 @@
     <description>Recent content in Posts on Dylan DEGAIL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Oct 2022 00:08:32 +0200</lastBuildDate><atom:link href="https://dylan-degail.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dylan-degail.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI for health (goal n°3 of Sustainable Development Goal)</title>
+      <link>https://dylan-degail.me/posts/ai-health-research-unipd/</link>
+      <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dylan-degail.me/posts/ai-health-research-unipd/</guid>
+      <description>🛰️ Subject Use AI to help children with ASD in terms of socially and emotional abilities in society.
+📜 Papers references Socially assistive robots for teaching emotional abilities to children with autism spectrum disorder
+Improving social skills in children with ASD using a long-term, in-home social robot
+📝 Research 🚧 WIP</description>
+    </item>
+    
     <item>
       <title>Tools and ressources to begin CTF / challenges</title>
-      <link>https://dylan-degail.me/posts/pentest-begin-x00/</link>
+      <link>https://dylan-degail.me/posts/pentest-begin-x00-copy/</link>
       <pubDate>Sat, 22 Oct 2022 00:08:32 +0200</pubDate>
       
-      <guid>https://dylan-degail.me/posts/pentest-begin-x00/</guid>
+      <guid>https://dylan-degail.me/posts/pentest-begin-x00-copy/</guid>
       <description>Post wrote by Dylan DEGAIL and Nathan MAILLET
 Tools Reverse Outil pour reverser des binaires :
 GDB + gdb-peda : GNU deboggueur pour lancer un programme étape par étape. dgb-peta améliore DGB pour montrer les valeurs des adresses pointeurs dans la pile d&amp;rsquo;exécution et des registres. Ghidra : analyse statique de binaires. Exploit Metasploit : outil complet utile notamment pour la génération automatique de shellcodes. pwntools : boîte à outil pour l&amp;rsquo;écriture d&amp;rsquo;exploits en python.</description>

@@ -9,10 +9,10 @@
     <lastBuildDate>Sat, 22 Oct 2022 00:08:32 +0200</lastBuildDate><atom:link href="https://dylan-degail.me/tags/pony7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tools and ressources to begin CTF / challenges</title>
-      <link>https://dylan-degail.me/posts/pentest-begin-x00/</link>
+      <link>https://dylan-degail.me/posts/pentest-begin-x00-copy/</link>
       <pubDate>Sat, 22 Oct 2022 00:08:32 +0200</pubDate>
       
-      <guid>https://dylan-degail.me/posts/pentest-begin-x00/</guid>
+      <guid>https://dylan-degail.me/posts/pentest-begin-x00-copy/</guid>
       <description>Post wrote by Dylan DEGAIL and Nathan MAILLET
 Tools Reverse Outil pour reverser des binaires :
 GDB + gdb-peda : GNU deboggueur pour lancer un programme étape par étape. dgb-peta améliore DGB pour montrer les valeurs des adresses pointeurs dans la pile d&amp;rsquo;exécution et des registres. Ghidra : analyse statique de binaires. Exploit Metasploit : outil complet utile notamment pour la génération automatique de shellcodes. pwntools : boîte à outil pour l&amp;rsquo;écriture d&amp;rsquo;exploits en python.</description>

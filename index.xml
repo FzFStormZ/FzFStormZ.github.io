@@ -6,13 +6,25 @@
     <description>Recent content on Dylan DEGAIL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Oct 2022 00:08:32 +0200</lastBuildDate><atom:link href="https://dylan-degail.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dylan-degail.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI for health (goal n°3 of Sustainable Development Goal)</title>
+      <link>https://dylan-degail.me/posts/ai-health-research-unipd/</link>
+      <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dylan-degail.me/posts/ai-health-research-unipd/</guid>
+      <description>🛰️ Subject Use AI to help children with ASD in terms of socially and emotional abilities in society.
+📜 Papers references Socially assistive robots for teaching emotional abilities to children with autism spectrum disorder
+Improving social skills in children with ASD using a long-term, in-home social robot
+📝 Research 🚧 WIP</description>
+    </item>
+    
     <item>
       <title>Tools and ressources to begin CTF / challenges</title>
-      <link>https://dylan-degail.me/posts/pentest-begin-x00/</link>
+      <link>https://dylan-degail.me/posts/pentest-begin-x00-copy/</link>
       <pubDate>Sat, 22 Oct 2022 00:08:32 +0200</pubDate>
       
-      <guid>https://dylan-degail.me/posts/pentest-begin-x00/</guid>
+      <guid>https://dylan-degail.me/posts/pentest-begin-x00-copy/</guid>
       <description>Post wrote by Dylan DEGAIL and Nathan MAILLET
 Tools Reverse Outil pour reverser des binaires :
 GDB + gdb-peda : GNU deboggueur pour lancer un programme étape par étape. dgb-peta améliore DGB pour montrer les valeurs des adresses pointeurs dans la pile d&amp;rsquo;exécution et des registres. Ghidra : analyse statique de binaires. Exploit Metasploit : outil complet utile notamment pour la génération automatique de shellcodes. pwntools : boîte à outil pour l&amp;rsquo;écriture d&amp;rsquo;exploits en python.</description>
@@ -24,8 +36,8 @@ GDB + gdb-peda : GNU deboggueur pour lancer un programme étape par étape. dgb-
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dylan-degail.me/projects/ppp_tmp/</guid>
-      <description>Mon projet personnel et professionnel Mon études BAC S-SVT spé math (2016 - 2019) DUT Informatique (2019 - 2021) ENSEEIHT - Sciences du numérique (2021 - ?) Mes expériences professionnelles Stage analyste sécurité - Université de Bristol (2021) ### Stage consultant cybersécurité - TEHTRIS (2022)
-Mes futurs objectifs Travail Pentester / Cybersecurity Engineer Software (Developer) Engineer Mix of them ?? International Experience au Japon #### Echange universitaire dans un pays anglophone</description>
+      <description>Personal &amp;amp; Professional Project Academics University of Bordeaux - Technical Diploma in Computer Science (2019 - 2021) ENSEEIHT - Computer Science M.Eng (2021 - now) University of Padova - Computer Science Eng (2023/02 - 2023/07) Professional Experiences Security Analyst internship - University of Bristol (2021) ### Cybersecurity Consultant internship - TEHTRIS (2022)
+Futures Goals Work Pentester / Cybersecurity Engineer Software (Developer) Engineer Work abroad / Digital nomad International WHV / VIE (Australia, Japan, Canada, Europe) Internships abroad Gap year ?</description>
     </item>
     
     <item>
